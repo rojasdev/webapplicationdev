@@ -8,6 +8,7 @@
       </tr>
 <?php
 $count = 1;
+if($user->list_users() != false){
 foreach($user->list_users() as $value){
    extract($value);
   
@@ -21,6 +22,9 @@ foreach($user->list_users() as $value){
       <tr>
 <?php
  $count++;
+}
+}else{
+  echo "No Record Found.";
 }
 ?>
     </table>
