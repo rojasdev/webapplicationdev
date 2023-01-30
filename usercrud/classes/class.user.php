@@ -55,7 +55,11 @@ class User{
 			 while($r = $q->fetch(PDO::FETCH_ASSOC)){
 			 $data[]=$r;
 			 }
-			 return $data;	
+			 if(empty($data)){
+				return false;
+			 }else{
+			 	return $data;	
+			 }
 	}
 
 	function get_user_id($email){
