@@ -154,5 +154,11 @@ public function new_product_type($tname){
 		return $prod_price;
 	}
 	
-	
+	function get_prod_image($id){
+		$sql="SELECT prod_image FROM tbl_product WHERE prod_id = :id";	
+		$q = $this->conn->prepare($sql);
+		$q->execute(['id' => $id]);
+		$prod_image = $q->fetchColumn();
+		return $prod_image;
+	}
 }
