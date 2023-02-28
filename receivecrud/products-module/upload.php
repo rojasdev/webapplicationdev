@@ -1,5 +1,7 @@
 <?php
-require_once '../class.connect.php';
+require_once '../config/config.php';
+require_once '../classes/class.product.php';
+$product = new Product();
 $id= isset($_GET['id']) ? $_GET['id'] : '';
 // Set maximum allowed file size in bytes
 $max_size = 5 * 1024 * 1024; // 5 MB
