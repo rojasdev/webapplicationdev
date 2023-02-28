@@ -1,11 +1,14 @@
 <h3>Product Details</h3>
 <div class="btn-box">
-<a href="index.php?page=settings&subpage=products&action=upload" class="btn-jsactive">Upload Image</a> | 
+<a href="index.php?page=settings&subpage=products&action=upload&id=<?php echo $id;?>" class="btn-jsactive">Upload Image</a> | 
 </div>
 <br/>
 <div id="form-block">
     <form method="POST" action="processes/process.product.php?action=updateproduct">
-        <div id="form-block-center">
+    <div id="form-block-half">
+    <img src="img/<?php echo $product->get_prod_image($id);?>"/>
+    </div>    
+    <div id="form-block-half">
             <label for="fname">Product Name</label>
             <input type="text" id="pname" class="input" name="pname" value="<?php echo $product->get_prod_name($id);?>" placeholder="Product name..">
 
