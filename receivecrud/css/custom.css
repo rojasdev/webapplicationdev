@@ -301,3 +301,12 @@ hr {
   font-weight: bold;
 }
 /*tr:nth-child(even){background-color: #f2f2f2}*/
+.tmbnail{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 60px;
+}
+.tmbnail:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
