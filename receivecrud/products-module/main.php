@@ -19,7 +19,7 @@ foreach($product->list_product() as $value){
 ?>
       <tr>
         <td><?php echo $count;?></td>
-        <td><?php echo $prod_image;?></td>
+        <td><img src="img/<?php echo $prod_image;?>" class="tmbnail"/></td>
         <td><a href="index.php?page=settings&subpage=products&action=profile&id=<?php echo $prod_id;?>"><?php echo $prod_name;?></a></td>
         <td><?php echo $prod_description;?></td>
         <td><?php echo $product->get_prod_type_name($product->get_prod_type($prod_id));?></td>
