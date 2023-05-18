@@ -1,0 +1,40 @@
+
+
+    NEW VENTURE SUPERMART     
+ LASALLE AVENUE, BACOLOD CITY 
+Tel No: (034) 4321187 TIN# 138-906-917-XXX
+Operated by: New Venture Inc. 
+Date: May 17, 2023   Time: 07:08am
+
+Cashier: getCasher()
+
+Sales # 
+------------------------------
+Description             Amount
+------------------------------
+Product AV           1@210.25
+                       210.25
+Product B             2@10.50
+                        21.00
+------------------------------
+Total Items: 0
+Sub Total                 0.00
+Disc. %                 0.00
+Net Total                 0.00
+C.Tend.                 0.00
+Change                 0.00
+------------------------------
+VATTABLE Sales             0.00
+VAT 12%                 0.00
+Net Sales                 0.00
+------------------------------
+
+
+THANK YOU FOR SHOPPING WITH US!
+THIS SERVES AS YOUR OFFICIAL RECEIPT
+
+
+
+
+
+
