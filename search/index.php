@@ -21,6 +21,8 @@ if(!$user->get_session()){
 	header("location: login.php");
 }
 $user_id = $user->get_user_id($_SESSION['user_email']);
+$user_id_login = $user->get_user_id($_SESSION['user_email']);
+$user_access_level = $user->get_user_access($user_id_login);
 ?>
 <!DOCTYPE html>
 <html>
